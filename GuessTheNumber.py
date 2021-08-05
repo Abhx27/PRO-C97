@@ -12,7 +12,7 @@ print("Guess a number (between 1 and 9):")
 while chances < 5:
 
 
-    guess = input("Enter your guess:- ")
+    guess = int(input("Enter your guess:- "))
 
 
 
